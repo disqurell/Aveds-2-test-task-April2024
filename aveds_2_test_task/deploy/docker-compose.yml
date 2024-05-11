@@ -1,0 +1,7 @@
+---
+services:
+  aveds-test-task:
+    container_name: "Aveds-2-test-task"
+    build: .
+    ports:
+      - "8030:8030"
